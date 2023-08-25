@@ -13,7 +13,7 @@ const commitRef = process.env.COMMIT_REF?.slice(0, 8) || "dev";
 const ogDescription = "一个简洁、美丽的hexo主题";
 const ogImage = "https://docs.anheyu.com/cover.jpg";
 const ogTitle = "安知鱼主题";
-const ogUrl = "https://docs.anheyu.com";
+const ogUrl = "/anzhiyu-docs-vitepress/";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
